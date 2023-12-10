@@ -1,0 +1,55 @@
+{
+    "tableOfContents": [
+      { "id": 0, "title": "Introduction" },
+      { "id": 1, "title": "First Concepts" },
+      { "id": 2, "title": "Advanced Topics" }
+    ],
+    "content": [
+        {
+          "id": "0",
+          "title": "Sub-concept Title 1",
+          "intro": "<p>Learn about how different animals perceive the world around them.</p>",
+          "progress": 0,
+          "link": "/animal-senses",
+          "summary": "<p>This section covers the various ways animals use their senses to navigate their environment.</p>"
+          
+        
+        },
+        {
+          "id": "1",
+          "title": "Bird and Animal Vision",
+          "intro": "<p>Discover how birds and animals have evolved different types of vision.</p>",
+          "image": "path_to_bird_image.png",
+          "video": "path_to_vision_video.mp4",
+          "virtualLab": "virtual_lab_url",
+          "audio": "path_to_audio.mp3",
+          "progress": 20,
+          "link": "/bird-animal-vision",
+          "summary": "<p>Birds and animals have various vision capabilities that affect how they interact with their world.</p>",
+          "takeAway": "Vision is key to survival in the animal kingdom."
+        },
+        {
+          "id": "2",
+          "title": "Sub-concept Title 1",
+          "intro": "<p>Learn about how different animals perceive the world around them.</p>",
+          "audio": "path_to_audio.mp3",
+          "summary": "<p>This section covers the various ways animals use their senses to navigate their environment.</p>"
+          
+        
+        },
+        {
+          "id": "3",
+          "title": "Sub-concept Title 1",
+          "intro": "<p>Learn about how different animals perceive the world around them.</p>",
+          "audio": "path_to_audio.mp3",
+          "progress": 60,
+        "link": "/tigers-animal-conservation",
+          "summary": "<p>This section covers the various ways animals use their senses to navigate their environment.</p>"
+          
+        
+        }
+        
+      ],
+      "vizTree": "/path/to/visualization/tree/image.png"
+  }
+  

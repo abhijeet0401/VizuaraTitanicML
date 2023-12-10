@@ -1,0 +1,179 @@
+[{
+    "title": "Table Of Content",
+    "vizTree": "",
+    "id": "0",
+    "content": [
+      {
+        "video": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Videos%2FWelcome%2FTitanicfinal.mp4?alt=media&token=650cf585-7259-4717-a762-69bc899b91ca",
+        "title": "⚓️ Titanic Adventure: Unraveling Secrets with Machine Learning Magic ✨⚓️",
+        "audio": null,
+        "game": "",
+        "virtualLab": "",
+        "teacher": "",
+        "image": null,
+        "id": "1",
+        "summary": "",
+        "intro":"Ahoy, fellow data explorers! 🚢✨<br><br>Let's set sail on a Titanic adventure, where the waves of history crash against the iceberg of mystery.<br><br>Picture this: April 15, 1912, the 'unsinkable' RMS Titanic takes a plunge after an encounter with an iceberg.<br><br>Tragically, not enough lifeboats, and 1502 souls out of 2224 bid farewell to the Titanic voyage.<br><br>But fear not, intrepid coders! Luck played its part, and now, with your wit and wizardry, we're on a quest.<br><br>Who were the chosen ones? What magical traits increased the odds of survival?<br><br>Join us in this coding escapade as we summon the predictive model genie to answer: 'Who sails through the storm, and who succumbs to the waves?' 🌊🔮"
+        ,
+        "takeAway": ""
+      }
+    ]
+  },
+{
+    "title": "Animal senses",
+    "vizTree": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/class5%2Fscience%2Fchapters%2Fchapter1%2Fvizbook%2Fpage1-1-image-Tree1.png?alt=media&token=d5d43db5-2a07-45c1-9bec-bd286faccc43",
+    "content": [
+      {
+        "summary": "",
+        "title": "❄️ Data acquisition ❄️",
+        "video": "",
+        "audio": "",
+        "id": "1",
+        "takeAway": "",
+        "teacher": "",
+        "virtualLab": "",
+        "game": "",
+        "intro": "<p><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">     Embark on a journey into the heart of the Titanic disaster dataset. <br><br>🚢💻 Explore the stories hidden in the numbers – from passenger class and age to gender and fare.🚢💻<br><br>Each data point holds a piece of the puzzle, and together, we're about to decipher its secrets.</span></p>",
+        "image": null
+      },
+      {
+        "video": "",
+        "image": null,
+        "takeAway": "",
+        "intro": "",
+        "title": "",
+        "game": "",
+        "teacher": "",
+        "summary": "",
+        "virtualLab": "",
+        "audio": "",
+        "id": "2",
+        "csv":"../../csvfolder/train.csv"
+      }
+    ],
+    "id": "1"
+  },{
+    "id": "2",
+    "vizTree": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/class5%2Fscience%2Fchapters%2Fchapter1%2Fvizbook%2Fpage2-2-image-Tree2.png?alt=media&token=420a4f2c-d128-493b-a95f-ff52fc6b87d5",
+    "content": [
+      {
+        "title": "❄️ Data Scoping ❄️",
+        "id": "1",
+        "image": null,
+        "video": null,
+        "teacher": "",
+        "intro": "Now, as we sail into the vast sea of data, let's familiarize ourselves with the types of information onboard.<br><br>Prepare to navigate through the numerical depths, ride the categorical currents, and surf the textual tides.<br><br>Witness the intricate transformation of raw data, unfolding its secrets and paving the way for our exciting predictive journey.",
+        "audio": null,
+        "game": "",
+        "takeAway": "",
+        "virtualLab": "",
+        "dataattribute":"yes",
+        "summary": ""
+      },
+     
+      {
+        "audio": "",
+        "intro": "<p><span style='color: rgb(0, 0, 0); background-color: transparent;'>1. <b>Categorical Data</b>: Categorical data represents discrete and distinct categories or labels. It can be further divided into nominal and ordinal data. Nominal data doesn't have any inherent order, while ordinal data has a specific order or ranking.<br><br>2. <b>Non-categorical data</b>, as opposed to categorical data, represents values on a continuous scale. This type of data is typically measured and can take any real value within a certain range. Examples include numerical data such as temperature, height, or weight.</span></p>",
+        "id": "2",
+        "game": "",
+        "takeAway": "",
+        "video": "",
+        "title": "🐼 Understanding types of data! 🐼",
+        "virtualLab": "",
+        "teacher": "",
+        "image": null,
+        "attribute":"yes",
+        "summary": ""
+      }
+    ],
+    "title": "Bird and animal vision"
+  },{
+    "content": [
+      {
+        "image": null,
+        "video": "",
+        "summary": "",
+        "takeAway": "",
+        "game": "",
+        "title": "❄️  Data visualization ❄️",
+        "audio": "",
+        "teacher": "",
+        "id": "1",
+        "virtualLab": "",
+        "intro": "Now, as we sail into the vast sea of data, let's familiarize ourselves with the types of information onboard.<br><br>Prepare to navigate through the numerical depths, ride the categorical currents, and surf the textual tides.<br><br>Witness the movement of sea and flow of features like age, class, and embarkation point. Visual cues will guide us towards understanding the stark realities faced by passengers on that fateful night."
+
+      },
+      {
+        "image": null,
+        "takeAway": "",
+        "game": "",
+        "audio": "",
+        "teacher": "",
+        "summary": "",
+        "virtualLab": "",
+        "video": "",
+        "intro": "",
+        "id": "2",
+        "title": "Visualization",
+        "chart":"Yes"
+      }
+    ],
+    "id": "3",
+    "title": "Langurs and sloths",
+    "vizTree": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/class5%2Fscience%2Fchapters%2Fchapter1%2Fvizbook%2Fpage3-3-image-Tree3.png?alt=media&token=d00b2174-2127-402c-be4b-d03569b6292e"
+  },{
+    "vizTree": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/class5%2Fscience%2Fchapters%2Fchapter1%2Fvizbook%2Fpage4-4-image-Tree4?alt=media&token=8b580e71-de4a-4220-a6c8-e4d51b577496",
+    "title": "Modeling: Selecting Features for Prediction",
+    "content": [
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Images%2FScience%2FShared%2Fcorrelation.png?alt=media&token=f3ec8cac-cd79-4a7b-b062-6dc6c4f552ea",
+        "summary": "",
+        "virtualLab": "",
+        "takeAway": "",
+        "game": "",
+        "teacher": "",
+        "title": "Modeling: Selecting Features for Prediction",
+        "id": "1",
+        "intro": "Dive deep into the realm of feature selection, casting a wide net to ensnare the most impactful variables for our predictive expedition.<br><br> Navigate through the currents of correlation, meticulously assessing the significance of each element..<br><br> Our mission: strategically selecting the compass-bearing features that guarantee accurate predictions.<br><br> <b><h2>Correlation with Survival</h2></b>",
+        "audio": null,
+        "mlsummary":"yes"
+        
+      },
+      {
+        "audio": "",
+        "takeAway": "",
+        "teacher": "",
+        "id": "2",
+        "title": "Engines of Prediction: Constructing the Model ⚓",
+        "video": "",
+        "virtualLab": "",
+        "image": null,
+        "ml":"yes",
+        "game": "",
+        "summary": "",
+        "intro": "Fire up the engines of prediction as we construct our machine learning model.<br><br>Explore the various algorithms – decision trees, random forests, and logistic regression – each a different vessel on our analytical sea. Sail through the seas of model training, navigate the validation waters, and steer towards optimal performance."
+      }
+    ],
+    "id": "4"
+  },{
+    "title": "Table Of Content",
+    "vizTree": "",
+    "id": "5",
+    "content": [
+      {
+        "video": "",
+        "title": "Evaluation of the model 🌊",
+        "audio": null,
+        "game": "",
+        "virtualLab": "",
+        "teacher": "",
+        "image": null,
+        "id": "1",
+        "summary": "",
+        "intro":"As our predictive odyssey concludes, reflect on the discoveries made. Summarize the tales told by the data, the impact of chosen features, and the prowess of our machine learning model. Our journey ends, leaving us with a newfound understanding of the Titanic disaster and the power of prediction. 🌊🔮"
+        ,
+        "predict":"Yes",
+        "takeAway": ""
+      }
+    ]
+  }]

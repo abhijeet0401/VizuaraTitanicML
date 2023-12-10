@@ -1,0 +1,43 @@
+[
+    {
+      "Q": 1,
+      "question": "Based on the provided Gender vs Survival, Which gender has a better survival chance?",
+      "options": ["Male", "Female"],
+      "incorrect": "Incorrect. Hint: Could you try to find the summary of the Gender vs Survival graph?",
+      "correct": "Female",
+      "correctFeedback":"Note: Females have better survival chance."
+    },
+    {
+      "Q": 2,
+      "question": "Based on the provided Pclass vs Survival Graph, what can be concluded about the relationship between passenger class (Pclass) and survival on the Titanic?",
+      "options": ["Higher class passengers have a higher survival chance", "Lower class passengers have a higher survival chance", "There is no clear relationship between Pclass and survival","Pclass does not impact survival"],
+      "incorrect": "Incorrect. Hint: Could you try to find out the summary of the Pclass vs Survival graph ?",
+      "correct": "Higher class passengers have a higher survival chance",
+      "correctFeedback":"Note: Higher class passengers have better survival chance (may be because they are more privileged to be saved). <br>Note: Higher class passengers (low Pclass) have better average survival than the low class (high Pclass) passengers"
+
+    },
+    {
+      "Q": 3,
+      "question": "What can be observed from the catplot showing the relationship between Gender, Survived, and Pclass?",
+      "options": ["Women from all Pclasses have almost 100% survival chance", "Women from 1st and 2nd Pclass have almost 100% survival chance", "Men from 1st and 2nd Pclass have almost 100% survival chance","Men from 2nd and 3rd Pclass have almost 100% survival chance"],
+      "incorrect": "Incorrect. Another hint for this question. Incorrect. Could you try to find the summary of the Pclass & Gender vs. Survival  graph ?",
+      "correct": "Women from 1st and 2nd Pclass have almost 100% survival chance",
+      "correctFeedback": "Women from 1st and 2nd Pclass have almost 100% survival chance. <br> Men from 2nd and 3rd Pclass have only around 10% survival chance. "
+    },
+    {
+      "Q": 4,
+      "question": "If you are Male, which port should you NOT embark from?",
+      "options": ["Cherbourg", "Queenstown", "option C"],
+      "incorrect": "Sorry, that's incorrect. Hint: Please Check Pclass, Gender & Embarked vs. Survival graph",
+      "correct": "Queenstown",
+      "correctFeedback": "Correct! Queenstown is the correct answer."
+    },
+    {
+      "Q": 5,
+      "question": "What observations can be made from the plots showing the relationship between Pclass, Age, Gender, and Survival?",
+      "options": ["1st Pclass has more children compared to other two classes", "2nd Pclass has the highest survival rate among children aged 0 to 10", "Most male children (age 0 to 14) have a higher survival rate","Women from 1st and 2nd Pclass have almost 100% survival chance","Younger people from 1st Pclass have a lower survival rate compared to older people"],
+      "incorrect": "Sorry, that's not correct. Please try again.",
+      "correct": "Women from 1st and 2nd Pclass have almost 100% survival chance",
+      "correctFeedback": "That's correct! Women from 1st and 2nd Pclass indeed have almost 100% survival chance."
+    }
+  ]

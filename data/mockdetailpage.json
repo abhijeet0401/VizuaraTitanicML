@@ -1,0 +1,44 @@
+{
+    "SubConceptPerPage": [
+      0
+    ],
+    "TOC": [
+      {
+        "link": "/intro",
+        "title": "Table Of Contents",
+        "id": "0"
+      },
+      {
+        "id": "1",
+        "title": "Data acquisition 🐻‍❄",
+        "link": "/page1"
+      },
+      {
+        "id": "2",
+        "title": "Data Scoping 🐧️",
+        "link": "/page2"
+      },
+      {
+        "title": " Data visualization☃️",
+        "link": "/page3",
+        "id": "3"
+      },
+      {
+        "id": "4",
+        "link": "/page4",
+        "title": "Modeling 🏂🏽"
+      }, {
+        "id": "5",
+        "link": "/page5",
+        "title": "Evaluation🌊"
+      }
+    ],
+    "subConceptPerPage": [
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "pageNo": 6
+  }

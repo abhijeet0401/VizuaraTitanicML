@@ -1,0 +1,363 @@
+.schools {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background: linear-gradient(344.89deg, rgba(3, 134, 255, 0.046) 60.8%, rgba(3, 134, 255, 0.044) 60.8%, rgba(3, 134, 255, 0) 98.97%), linear-gradient(227.73deg, rgba(255, 0, 255, 0.04) 2.91%, rgba(255, 0, 255, 0) 47.94%), linear-gradient(152.25deg, rgba(251, 176, 59, 0.07) 0%, rgba(251, 176, 59, 0) 31.21%);
+
+}
+
+.schools_text {
+  /* background-color: green; */
+  width: 50%;
+  /* height:60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  /* padding-top:178px; */
+}
+
+.schools_text_css {
+  /* background-color:wheat; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* height:260px; */
+  padding-left: 10%;
+  /* padding-left:141px; */
+}
+
+.schools_text_heading {
+  /* background-color:black; */
+  /* height:80px; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(90.5deg, #fbb03b 16.64%, #fa00ff 82.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.schools_para {
+  /* background-color:yellowgreen; */
+  /* height:70px; */
+  width: 90%;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  /* padding-top:16px; */
+
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* or 175% */
+  color: #212121;
+}
+
+.schools_button {
+  /* background-color:violet; */
+  height: 63px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* margin-top:24px; */
+  /* padding-top:24px; */
+  background: linear-gradient(97.88deg, #0386ff -134.52%, #ff01ff 174.69%);
+  box-shadow: 4px 4px 20px rgba(255, 1, 255, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 27px; */
+}
+
+
+.schools_button button {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.schools_button:hover {
+  cursor: pointer;
+}
+
+.schools_button button:hover {
+  cursor: pointer;
+}
+
+.schools_image {
+  /* background-color:blue; */
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end;
+
+  /* padding-right: 110px; */
+}
+
+.schools_image_css {
+  width: 90%;
+  height: 420px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Images%2FWebsite%20Images%2FHomepage%2FVizuaraForSchool.png?alt=media&token=0dc333c2-0bd6-4d23-93f3-9e336704e09d');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 1100px) {
+  .schools {
+    /* height:610px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* margin-top:178px; */
+    /* margin-bottom:160px; */
+    /* height:50vh; */
+  }
+
+  .schools_text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    text-align: flex-start;
+    /* padding-top: 178px; */
+  }
+
+  .schools_text_css {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    padding-left: 0px;
+    /* background-color:purple; */
+    height: 100%;
+  }
+
+  .schools_para {
+    padding-left: 5%;
+  }
+
+  .schools_button {
+    margin-left: 5%;
+  }
+
+  .schools_image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 90%;
+    padding-top: 20px;
+    margin-left: 5%;
+  }
+
+  .schools_text_heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height:44px; */
+    /* background-color:blue; */
+  }
+
+  .schools_text {
+    /* background-color:black; */
+    width: 100%;
+  }
+
+  .schools_para {
+    width: 90%;
+    margin-top: 22px;
+    /* padding-top:26px; */
+    /* margin-bottom:24px; */
+    /* height:68px; */
+    /* background-color:green; */
+  }
+}
+
+@media (max-width: 849px) {
+  .schools {
+    padding-top: 47px;
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 800px) {
+  .schools_para {
+    width: 90%;
+    /* height:150px; */
+    /* background-color:green; */
+  }
+}
+
+@media (max-width: 693px) {
+  .schools_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 45px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .schools_button button {
+    font-size: 20px;
+    /* height:50px;
+       width:170px;  */
+  }
+}
+
+@media (max-width: 593px) {
+
+  /* .schools_text_heading{
+        font-size:24px;
+    } */
+  .schools {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* height: 200px; */
+  }
+
+  .schools_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    /* height:400px; */
+  }
+
+  .schools_text_css {
+    /* height:100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .schools_para {
+    /* height:138px; */
+    font: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    line-height: 1.5;
+    margin-left: 0px;
+    /* margin-bottom:20px; */
+  }
+
+  .schools_button {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* @media(max-width:444px){
+    .schools_para{
+        height:173px;
+    }
+} */
+@media (max-width: 526px) {
+  .schools {
+    /* height:400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* .schools_text{
+        height:350px;
+    } */
+  .schools_text_css {
+    height: 100%;
+  }
+}
+
+@media (max-width: 446px) {
+  .schools_para {
+    /* height:135px; */
+    font-size: 16px;
+    padding-top: 0px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 311px) {
+  .schools {
+    height: 400px;
+  }
+
+  .schools_text {
+    height: 400px;
+  }
+
+  .schools_text_css {
+    height: 450px;
+  }
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 420px;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.video div {
+  width: 100%;
+}
+
+.border {
+  border-radius: 20.8462px;
+  box-shadow: rgba(50, 50, 93, 0.4) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media(max-width:900px) {
+  .video {
+    flex-direction: column;
+    height: 840px;
+  }
+
+  .video div {
+    height: 420px;
+  }
+
+}

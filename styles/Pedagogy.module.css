@@ -1,0 +1,248 @@
+.pedagogy {
+    width: 100%;
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(101.53deg, rgba(255, 132, 171, 0.09) -38.57%, rgba(3, 134, 255, 0) 126.17%);
+}
+
+.pedagogy_text {
+    width: 100%;
+    /* background-color:green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.pedagogy_text_heading {
+
+    background: linear-gradient(90.5deg, #FBB03B 16.64%, #FA00FF 82.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* background:green; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1.5rem;
+    /* margin-left:10%; */
+    margin-bottom: 1.5rem;
+
+}
+
+.pedagogy_text_para {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.pedagogy_image_section {
+    width: 100%;
+    /* height:700px; */
+    /* background-color:greenyellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-right:10%; */
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    /* margin-right:5%; */
+    gap: 20px;
+    /* padding:50px 0; */
+
+}
+
+.image_section {
+    background-color: white;
+    width: 25%;
+    /* height:320px; */
+    /* background-color:white; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding-top:32px; */
+    /* padding-bottom:20px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* box-shadow: 0px 8px 30px rgba(171, 171, 171, 0.19); */
+
+    /* overflow: hidden; */
+}
+
+.image_section imagep {
+
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 1.25;
+    background: linear-gradient(279.1deg, #0386FF -120.37%, #FF00FF 153.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.image1 {
+    min-width: 300px;
+    min-height: 300px;
+    background: url('https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Images%2FWebsite%20Images%2FPedagogy%2FNEP-min.png?alt=media&token=f0617029-cf3c-464c-b756-7c066e868656');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* background-color:gray; */
+}
+
+.image2 {
+    width: 300px;
+    height: 300px;
+    /* background-color:gray; */
+    background: url('https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Images%2FWebsite%20Images%2FPedagogy%2FSyllabus-min.png?alt=media&token=036cdb10-9dc5-49b7-9406-9b836216fa6a');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* border-radius: 15%; */
+    border-radius: 20px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.image3 {
+    width: 300px;
+    height: 300px;
+    /* background-color:gray; */
+    background: url('https://firebasestorage.googleapis.com/v0/b/vizuaradelta.appspot.com/o/Images%2FWebsite%20Images%2FPedagogy%2FSubjects-min.png?alt=media&token=717ba21a-c3ff-44a9-8bc5-30be395baa8e');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* border-radius: 12%; */
+    border-radius: 20px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.px_1600 {
+    display: none;
+}
+
+.px_900 {
+    display: none;
+}
+
+@media(max-width:1500px) {
+    .pedagogy_image_section {
+
+        /* padding:30px 0; */
+    }
+
+    .image_section imagep {
+
+        font-size: 20px;
+    }
+
+    .pedagogy_text_heading {
+        width: 100%;
+        margin-top: 50px;
+        /* margin-left:5%; */
+    }
+
+}
+
+@media(max-width:1000px) {
+    .pedagogy {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pedagogy_text {
+        width: 100%;
+        /* background-color:green; */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .px_1000 {
+        display: flex;
+
+    }
+
+    .px_1600 {
+        display: none;
+    }
+
+    .pedagogy_text_heading {
+        margin-top: 50px;
+        /* margin-left:5%; */
+    }
+
+    .pedagogy_text_para {
+        margin-left: 5%;
+    }
+
+    .pedagogy_image_section {
+        width: 100%;
+        padding-left: 0%;
+        /* margin-left:0; */
+        padding-right: 0%;
+        /* margin */
+        justify-content: center;
+        /* margin-bottom:0px; */
+        /* background-color: #FA00FF; */
+    }
+
+    .image_section imagep {
+
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width: 600px) {
+
+
+    .pedagogy_text_para {
+        margin-left: 5%;
+    }
+
+    .pedagogy_image_section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+        gap: 20px;
+        /* margin-bottom:30px; */
+    }
+
+    .image_section {
+        width: 45%;
+        padding-top: 16.9px;
+        height: 220px;
+    }
+
+    /* .image_section  */
+
+    .image_section imagep {
+
+        font-size: 16px;
+    }
+}
+
+@media(max-width:400px) {
+    .pedagogy_text_heading {
+        font-size: 24px;
+    }
+
+    .pedagogy_text_para {
+        font-size: 14px;
+    }
+
+}
